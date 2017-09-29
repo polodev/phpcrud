@@ -127,7 +127,7 @@ while($row = $statement->fetch()) {
 
 * Update Database (U)
 ~~~php
-name = 'vasanth';
+$name = 'vasanth';
 $email  = 'vasanth@gmail.com';
 $id = 1;
 $statement = $conn->prepare("UPDATE people SET name=:name, email=:email WHERE id=:id");
