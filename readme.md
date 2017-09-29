@@ -6,9 +6,8 @@ Here is the basic tutorial how to do crud in mysqli and pdo.
 ~~~sql
 CREATE DATABASE crud;
 ~~~
-* select crud database;
-
-~~~sql
+* select crud database. 
+~~~sql 
 USE crud;
 ~~~
 
